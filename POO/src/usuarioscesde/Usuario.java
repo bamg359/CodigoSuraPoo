@@ -8,13 +8,13 @@ public class Usuario {
 
     //Primero creamos los atributos encapsulados con private
 
-    private int id;
-    private String nombre;
-    private String apellido;
-    private String correo;
-    private String contrasena;
-    private String direccion;
-    private String telefono;
+    protected int id;
+    protected String nombre;
+    protected String apellido;
+    protected String correo;
+    protected String contrasena;
+    protected String direccion;
+    protected String telefono;
 
     // Vamos a crear nuestro método constructor vacio
 
@@ -99,6 +99,8 @@ public class Usuario {
     // métodos
 
     public void registrarUsuario(){
+
+        System.out.println("Soy el de usuario");
 
         System.out.println("Ingrese su id: ");
         this.id = sc.nextInt(); // This es un operador que hace refencia a una atributo de la clase

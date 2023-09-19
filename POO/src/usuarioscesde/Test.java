@@ -15,13 +15,40 @@ public class Test {
         String correo = "pirata@mail.com";
         nicolas.setCorreo(correo);
 
-        System.out.println(nicolas.getNombre());*/
+        System.out.println(nicolas.getNombre());
 
         nicolas.registrarUsuario();
         System.out.println(nicolas.toString());
         nicolas.iniciarSesion();
 
+        */
+
+
         Estudiante estudiante = new Estudiante();
+
+        estudiante.setNombre("Pepito");
+
+        System.out.println(estudiante.getNombre());
+
+        Empleado empleado = new Empleado();
+
+        empleado.setNombre("Maria");
+
+        System.out.println(empleado.getNombre());
+
+        Usuario estSoftware = new Estudiante();
+
+        Usuario empProfesor = new Empleado();
+        estSoftware.registrarUsuario();
+        //estudiante.registrarUsuario();
+        //estudiante.toString();
+        //estudiante.iniciarSesion();
+
+
+
+
+
+
 
 
 

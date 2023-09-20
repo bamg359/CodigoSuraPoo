@@ -21,9 +21,6 @@ public class Test {
         System.out.println(nicolas.toString());
         nicolas.iniciarSesion();
 
-        */
-
-
         Estudiante estudiante = new Estudiante();
 
         estudiante.setNombre("Pepito");
@@ -43,6 +40,16 @@ public class Test {
         //estudiante.registrarUsuario();
         //estudiante.toString();
         //estudiante.iniciarSesion();
+
+         */
+
+        Profesor profePepito = new Profesor();
+
+        profePepito.registrarUsuario();
+        profePepito.imprimirUsuario();
+        profePepito.iniciarSesion();
+
+
 
 
 

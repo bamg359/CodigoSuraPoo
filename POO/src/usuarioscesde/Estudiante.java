@@ -1,6 +1,6 @@
 package usuarioscesde;
 
-public class Estudiante extends Usuario{
+public class Estudiante extends Academico{
 
 
     //Atributos
@@ -12,8 +12,8 @@ public class Estudiante extends Usuario{
 
     }
 
-    public Estudiante(int id, String nombre, String apellido, String correo, String contrasena, String direccion, String telefono, String carrera) {
-        super(id, nombre, apellido, correo, contrasena, direccion, telefono);
+    public Estudiante(int id, String nombre, String apellido, String correo, String contrasena, String direccion, String telefono, String escuela, String carrera) {
+        super(id, nombre, apellido, correo, contrasena, direccion, telefono, escuela);
         this.carrera = carrera;
     }
 
